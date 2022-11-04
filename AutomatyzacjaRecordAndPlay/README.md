@@ -1,4 +1,4 @@
-# Zadanie 
+# Zadanie [moduł newsLetter 5]
 testowanie rejestracji użytkownika aplikacji pestaShop; 
 zadanie było wieloetapowe; poniżej treści kolejnych etapów zadania; 
 
@@ -23,7 +23,7 @@ Czy jest jakaś różnica w wynikach testów?
 
 [ rozwiazanie jest w ./pestaShopv1.side ]
 
-# Zadanie 
+# Zadanie [moduł newsLetter 5]
 Zautomatyzujmy nasz serwis Fintech.
 [...]
 Nagraj test w Selenium IDE, który będzie dodawał do Twojego konta nowy rachunek (Bills).

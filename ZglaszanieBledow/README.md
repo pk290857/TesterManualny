@@ -8,4 +8,4 @@ Adres środowiska testowego [...]
 Wszystkie znalezione błędy przypisz do wykładowcy.
 PAMIĘTAJ zaktualizuj odpowiednie zadanie w JIRA i kontroluj wszystkie zgłoszone błędy.
 
-[rozwiązanie ./jira_PK.pdf]
+[rozwiązanie w formie zrzutu ekranu jest w ./jira_PK.pdf]

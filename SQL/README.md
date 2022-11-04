@@ -5,7 +5,7 @@ treści zapytań są w formie komentarzy w pliku .sql z rozwiązaniami;
 
 [rozwiązania ./PobieranieDanych.sql ]
 
-# Zadania 40-43
+# Zadania 40-43 [moduł Test Lab]
 na zadania składa się tworzenie bazy danych, dodawanie, usuwanie, modyfikowanie rekordów,
 modyfikowanie samej bazy; 
 treści zapytań są w formie komentarzy w pliku .sql z rozwiązaniami;

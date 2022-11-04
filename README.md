@@ -22,6 +22,10 @@ na ten kurs składały się też moduły z licznymi materiałami i zadaniami do 
 te moduły nazywały się "Test Lab" i "Test Lab Newsletter"; 
 ten pierwszy poruszał zagadnienia z powłoki Bash, HTML i CSS ;
 ten drugi był w formie cyklu sześciu emaili z materiałami i zadaniami dot. różnych wątków testowania Manualnego, a nawet Automatyzacji; 
-(te moduły w tym repozytorium można rozpoznawać po nazwach plików, katalogów, treści zadań ...)
+(te moduły w tym repozytorium można rozpoznawać po nazwach plików, katalogów, treści zadań ...),
+np. 
+- plik z rozwiązaniem InzynieriaWymagan/newsLetter1Zadania.docx ma w nazwie "newsLetter1"
+- plik /TesterManualny/KonsolaBash/readme.md ma linię zawierajacą "[moduł Test Lab]"
+
 
 

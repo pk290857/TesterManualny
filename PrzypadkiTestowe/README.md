@@ -20,7 +20,7 @@ PAMIĘTAJ aktualizuj zadania w JIRA na bieżąco.
 
 [rozwiazanie ./TestTLink_Jira_PK.pdf] 
 
-# Zadanie [newsLetter 2, testujemy Finanse ]
+# Zadanie [newsLetter 2, testujemy Finanse]
 
 Przygotowaliśmy dla Ciebie aplikację z sektora FinTech. 
 Aplikacja służy do zarządzania domowym budżetem. Adres aplikacji:
@@ -36,6 +36,5 @@ Pobierz szablon przypadku testowego [...]
 Opracowaliśmy dla Ciebie listy kontrolne, na podstawie których powinny zostać opracowaneprzez Ciebie niskopoziomowe (szczegółowe) przypadki testowe oraz wykonane testy.
 Listy kontrolne:
 [...]
-
 
 [rozwiazanie ./zadaniePrzypadkiTestowe_PK.xls] 

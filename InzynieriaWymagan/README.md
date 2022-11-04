@@ -7,7 +7,8 @@ odpowiednich zobowiązań dla wymagania korzystając z metody MoSCoW.
 [rozwiązanie ./ModulInzynieriaZadanie.txt]
 
 # Zadanie 
-Na podstawie poniższych wymagań stwórz odpowiednie historyjki użytkownika. Celoraz kryteria akceptacji dla każdego z wymagań możesz wymyślić dowolne. 
+Na podstawie poniższych wymagań stwórz odpowiednie historyjki użytkownika. 
+Cel oraz kryteria akceptacji dla każdego z wymagań możesz wymyślić dowolne. 
 Pamiętaj, aby w pełni korzystać z szablonu historyjki użytkownika.
 [...]
 

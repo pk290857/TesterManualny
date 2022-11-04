@@ -4,4 +4,4 @@ schematu i wytycznych wykładowcy.
 Przygotowany został szablon, w którym należy uzupełnić brakujące wpisy.
 PAMIĘTAJ stworzony dokument dołącz do odpowiedniego zadania w JIRA i je zaktualizuj.
 
-[rozwiązanie ./Plan_testow_CodersGuru_PKv1.pdf]
+[rozwiązanie w formie zrzutu ekratu jest w ./Plan_testow_CodersGuru_PKv1.pdf]
