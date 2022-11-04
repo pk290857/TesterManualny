@@ -1,4 +1,3 @@
-Rejestracja studenta Coders Lab
 M
    Jako [kto?] niezarejestrowany student Coders Lab
    chcę [co?] zarejestrować się w serwisie,

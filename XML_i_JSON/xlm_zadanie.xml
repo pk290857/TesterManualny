@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<biblioteczka>
+	<book1>
+		<autor lang="pl">Beata Błaszczyk</autor>
+		<tytul>tytul</tytul>
+		<rok>1999</rok>
+	</book1>
+	<book1>
+		<autor>Beata Błaszczyk</autor>
+		<tytul>tytul</tytul>
+		<rok>1999</rok>
+	</book1>
+</biblioteczka>
