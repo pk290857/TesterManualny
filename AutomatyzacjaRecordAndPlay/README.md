@@ -30,3 +30,6 @@ Nagraj test w Selenium IDE, który będzie dodawał do Twojego konta nowy rachun
 * (dla chętnych) - postaraj się przygotować skrypt tak, aby wpisywał jak najwięcej losowychwartości.
 
 [ rozwiazanie jest w ./fintech.side ]
+
+[UWAGA: rozwiązanie testuje wyłącznie dodawanie nowego rachunku; w szczególności, zakłada się, że jest zalogowany/zapamiętany w przeglądarce
+użytkownik]
