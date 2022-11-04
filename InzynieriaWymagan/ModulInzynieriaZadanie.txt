@@ -1,0 +1,54 @@
+Rejestracja studenta Coders Lab
+M
+   Jako [kto?] niezarejestrowany student Coders Lab
+   chcę [co?] zarejestrować się w serwisie,
+   by [dlaczego?] mieć możliwość zalogowania się.
+--------------
+M
+ Jako [kto?] zarejestrowany student Coders Lab
+   chcę [co?] zmienić hasło
+   by [dlaczego?] zwiększyć bezpieczeństwo
+---------
+M
+Jako [kto?] zalogowany student Coders Lab
+   chcę [co?] sprawdzić obecność
+   by [dlaczego?] sprawdzić spełnienie wymagań frekfencji
+-------
+M
+   Jako [kto?] zalogowany student Coders Lab
+   chcę [co?] zgłosić nieobecność
+   by [dlaczego?] mieć możliwość odrobienia zajęć
+------
+------------
+M
+Jako [kto?] zalogowany student Coders Lab
+   chcę [co?] sprawdzić oceny
+   by [dlaczego?] sprawdzić mozliwość zaliczenia w pierwszym terminie
+---------
+Jako [kto?] zalogowany student Coders Lab
+S
+   chcę [co?] sprawdzić harmonogram kursu
+   by [dlaczego?] przygotować się na kolejne zajęcia
+-------
+M
+Jako [kto?] zalogowany student Coders Lab
+   chcę [co?] zgłosić nieprzygotowanie
+   by [dlaczego?] uniknąć negatywnej oceny
+-------
+M
+Jako [kto?] zalogowany student Coders Lab
+   chcę [co?] się wylogować <<mozna dodac user story z automatycznym wylogowaniem; takie rzeczy zawsze ewoluuja jak na str.33>>
+   by [dlaczego?] zablokować dostęp
+-------
+S
+Jako [kto?] zalogowany student Coders Lab
+   chcę [co?] rzwiązać quiz
+   by [dlaczego?] przygotować się do egzaminu
+-------
+C
+Jako [kto?] zalogowany student Coders Lab
+   chcę [co?] wejść na slacka
+   by [dlaczego?] zadać pytanie
+
+--
+uwagi: brakuje punktu widzenia drugiej strony, np. możliwość dodawania materiałów przez mentora etc 
