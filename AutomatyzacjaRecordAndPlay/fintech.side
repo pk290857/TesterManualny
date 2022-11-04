@@ -1,0 +1,204 @@
+{
+  "id": "e01c4d98-9618-4265-b25f-7999e0083d10",
+  "version": "2.0",
+  "name": "fintech",
+  "url": "https://fintech-testlab.coderslab.pl/bills",
+  "tests": [{
+    "id": "56f598fb-7a46-4647-9e82-7b0155e78257",
+    "name": "newBill",
+    "commands": [{
+      "id": "38558d26-2b28-48bd-8259-87e158f558a6",
+      "comment": "",
+      "command": "open",
+      "target": "https://fintech-testlab.coderslab.pl/bills",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76f0c870-b91b-4268-9765-f1224d010bfc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1368x912",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b3d3d21-fdb1-41cd-8613-5d385c25a901",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return Math.floor(Math.random()*100) ;",
+      "targets": [],
+      "value": "rachunek_min"
+    }, {
+      "id": "a0987ed0-45d5-4d0a-88b5-1e11afa4ee93",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${rachunek_min}+20 ;",
+      "targets": [],
+      "value": "rachunek_max"
+    }, {
+      "id": "8c1765e3-4fe4-4ac5-80e0-8f6d5d555b1b",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return Math.floor(Math.random()*10000) ;",
+      "targets": [],
+      "value": "name"
+    }, {
+      "id": "42d14292-bebc-48c4-9083-24af29124365",
+      "comment": "",
+      "command": "store",
+      "target": "${name}",
+      "targets": [],
+      "value": "nazwa"
+    }, {
+      "id": "5f0e86a2-9470-4e79-91e8-2160610d098e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Create new bill",
+      "targets": [
+        ["linkText=Create new bill", "linkText"],
+        ["css=div:nth-child(1) > .btn-success", "css:finder"],
+        ["xpath=//a[contains(text(),'Create new bill')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/section[2]/div/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://fintech-testlab.coderslab.pl/bills/create')])[2]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Create new bill')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d929827e-87f8-4eec-9315-0e58cb61b519",
+      "comment": "",
+      "command": "click",
+      "target": "id=ffInput_name",
+      "targets": [
+        ["id=ffInput_name", "id"],
+        ["name=name", "name"],
+        ["css=#ffInput_name", "css:finder"],
+        ["xpath=//input[@id='ffInput_name']", "xpath:attributes"],
+        ["xpath=//div[@id='name_holder']/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c28623a9-a581-400c-848a-5a35d68e3c60",
+      "comment": "",
+      "command": "type",
+      "target": "id=ffInput_name",
+      "targets": [
+        ["id=ffInput_name", "id"],
+        ["name=name", "name"],
+        ["css=#ffInput_name", "css:finder"],
+        ["xpath=//input[@id='ffInput_name']", "xpath:attributes"],
+        ["xpath=//div[@id='name_holder']/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${nazwa}"
+    }, {
+      "id": "b5ea84af-1f9b-4e0b-a6fa-c2f2328325a4",
+      "comment": "",
+      "command": "click",
+      "target": "id=ffInput_amount_min",
+      "targets": [
+        ["id=ffInput_amount_min", "id"],
+        ["name=amount_min", "name"],
+        ["css=#ffInput_amount_min", "css:finder"],
+        ["xpath=//input[@id='ffInput_amount_min']", "xpath:attributes"],
+        ["xpath=//div[@id='amount_min_holder']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c80fd12e-cf98-4593-bf95-db04c0797af7",
+      "comment": "",
+      "command": "type",
+      "target": "id=ffInput_amount_min",
+      "targets": [
+        ["id=ffInput_amount_min", "id"],
+        ["name=amount_min", "name"],
+        ["css=#ffInput_amount_min", "css:finder"],
+        ["xpath=//input[@id='ffInput_amount_min']", "xpath:attributes"],
+        ["xpath=//div[@id='amount_min_holder']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "${rachunek_min}"
+    }, {
+      "id": "f13aed51-5e65-46ef-abb2-5626edf4b461",
+      "comment": "",
+      "command": "type",
+      "target": "id=ffInput_amount_max",
+      "targets": [
+        ["id=ffInput_amount_max", "id"],
+        ["name=amount_max", "name"],
+        ["css=#ffInput_amount_max", "css:finder"],
+        ["xpath=//input[@id='ffInput_amount_max']", "xpath:attributes"],
+        ["xpath=//div[@id='amount_max_holder']/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "${rachunek_max}"
+    }, {
+      "id": "8326531c-1c2a-4f79-9dd9-a3145b5e5ad0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='store']/div[2]/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Store new bill')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8683430a-aba6-4c29-a5b6-6c561991567f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bills",
+      "targets": [
+        ["linkText=Bills", "linkText"],
+        ["css=.sidebar-menu > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//div[@id='app']/aside/section/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://fintech-testlab.coderslab.pl/bills')]", "xpath:href"],
+        ["xpath=//section/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Bills')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff492779-6350-4ad7-92e8-abf17b2b0b0b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=${nazwa}",
+      "targets": [
+        ["linkText=rachunek", "linkText"],
+        ["css=.bill-sortable:nth-child(2) > td > a", "css:finder"],
+        ["xpath=//a[contains(text(),'rachunek')]", "xpath:link"],
+        ["xpath=//table[@id='bill-sortable']/tbody/tr[2]/td[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://fintech-testlab.coderslab.pl/bills/show/100')]", "xpath:href"],
+        ["xpath=//td[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'rachunek')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21853d28-e6ee-4d83-b500-f7ec3c86849b",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${rachunek_min}+10",
+      "targets": [],
+      "value": "rachunek_approx"
+    }, {
+      "id": "e71ffa1e-a08c-4b79-8916-f6a8504c7d65",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.bill-sortable:nth-child(2) .text-success",
+      "targets": [],
+      "value": "€${rachunek_approx}.00"
+    }]
+  }],
+  "suites": [{
+    "id": "b0ca7614-21af-4a49-ad8f-3e30fef3b0a3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["56f598fb-7a46-4647-9e82-7b0155e78257"]
+  }],
+  "urls": ["https://fintech-testlab.coderslab.pl/bills"],
+  "plugins": []
+}
